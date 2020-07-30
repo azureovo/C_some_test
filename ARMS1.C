@@ -16,5 +16,9 @@ char line[100];
   number=atoi(line);
   pos=0;
   ten_pow=1;
+  do{
+    ten_pow*=10;
+    pos++;
+  }while(ten_pow<number);
   
 }
