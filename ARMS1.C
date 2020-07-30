@@ -11,4 +11,10 @@ int temp,i;
 float expon;
 char line[100];
 
+  printf("\n PLease key in number:");
+  gets(line);
+  number=atoi(line);
+  pos=0;
+  ten_pow=1;
+  
 }
